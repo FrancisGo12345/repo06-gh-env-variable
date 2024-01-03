@@ -9,7 +9,7 @@ env:
 jobs:
   test:
     env: 
-      MONGODB_CLUSTER_ADDRESS:cluster0.gty2z4d.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.gty2z4d.mongodb.net
       MONGODB_USERNAME: paquetfrancis
       MONGODB_PASSWORD: 4W4CEhmQj9M3vjEi
       PORT: 8080
