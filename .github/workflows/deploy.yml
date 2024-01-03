@@ -33,6 +33,8 @@ jobs:
         run: |
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
+          echo "GITHUB_JOB: $GITHUB_JOB"
+          echo "GITHUB_REPOSITORY_OWNER_ID: $GITHUB_REPOSITORY_OWNER_ID"
   deploy:
     needs: test
     runs-on: ubuntu-latest
